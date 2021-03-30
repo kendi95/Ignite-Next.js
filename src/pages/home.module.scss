@@ -1,5 +1,6 @@
 .contentContainer {
   max-width: 1120px;
+  max-height: 86vh;
   margin: 0 auto;
   padding: 0 2rem;
   height: calc(100vh - 4rem);
@@ -7,6 +8,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  > img {
+    width: 18rem;
+  }
 }
 
 .hero {
